@@ -4,7 +4,7 @@ class User:
     def welcomeMsg(self):
         return "hello "+self.username+",welcome to the git "
 
-<<<<<<< HEAD
+
 person = Person("shalu")
 		
 
