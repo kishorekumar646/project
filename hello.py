@@ -1,7 +1,8 @@
-class Person:
-	"""docstring for Person"""
-	def __init__(self, name):
-		self.name = name
+class User:
+    def __init__(self, username):
+        self.username = username
+    def welcomeMsg(self):
+        return "hello "+self.username+",welcome to the git "
 
-person = Person("kishore")
-		
+user_object = User("Divya")
+print(user_object.welcomeMsg())
